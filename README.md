@@ -7,6 +7,8 @@ dbt Labs is a cloud-based platform that helps you ship trusted data products fas
 
 As an Analytics Engineer tasked with managing the data flow for Airbnb in Berlin, Germany, and Europe, the primary goal is to establish a robust data pipeline and warehouse infrastructure to facilitate efficient data processing, transformation, and analytics. The focus is on ensuring the reliability, integrity, and quality of the data while optimizing for scalability and ease of maintenance.
 
+![alt text](image-1.png)
+
 Key Tasks:
 
 1. Import Data into Data Warehouse:
@@ -53,3 +55,11 @@ Key Tasks:
 
 ## Tech Stack used:
 ![alt text](image.png)
+
+## dbt project structure (Terms you should know):
+### Models:
+![alt text](image-2.png)
+
+### Common Table Expression (CTE)
+There are 3 steps as shown below:
+![alt text](image-3.png)
