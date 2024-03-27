@@ -61,5 +61,10 @@ Key Tasks:
 ![alt text](image-2.png)
 
 ### Common Table Expression (CTE)
-There are 3 steps as shown below:
 ![alt text](image-3.png)
+
+### Materialization
+![alt text](image-4.png)
+
+### Sources and Seeds
+![alt text](image-5.png)
