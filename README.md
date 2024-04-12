@@ -63,8 +63,7 @@ Key Tasks:
 ### Common Table Expression (CTE)
 ![alt text](image-3.png)
 
-### Materialization
-![alt text](image-4.png)
+### Materializations
 
 ### When to use which Materialization?
 ![alt text](image-6.png)
