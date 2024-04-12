@@ -66,5 +66,8 @@ Key Tasks:
 ### Materialization
 ![alt text](image-4.png)
 
+### When to use which Materialization?
+![alt text](image-6.png)
+
 ### Sources and Seeds
 ![alt text](image-5.png)
