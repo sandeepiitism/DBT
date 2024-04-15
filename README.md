@@ -58,7 +58,10 @@ Key Tasks:
 
 ## dbt project structure (Terms you should know):
 ### Models:
+- Create sources.yml
+
 ![alt text](image-2.png)
+
 
 ### Common Table Expression (CTE)
 ![alt text](image-3.png)
@@ -70,3 +73,14 @@ Key Tasks:
 
 ### Sources and Seeds
 ![alt text](image-5.png)
+
+## Snapshot 
+- Type 2 slowly changing dimensions
+    - Type-2 SCD: keeps the new and the old records both which was updated. (Valid from and valid to columns)
+- Creating listings and hosts models
+
+## Test
+- Singular test and generic test
+    - Singular test: Normal sql test which is expected to return empty.
+    - Generic test: unique, not_null, accepted_values, relationships.
+- create schema.yml file at Models folder.
