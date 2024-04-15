@@ -80,7 +80,9 @@ Key Tasks:
 - Creating listings and hosts models
 
 ## Test
-- Singular test and generic test
+- Singular test and generic test (test--> file created)
     - Singular test: Normal sql test which is expected to return empty.
     - Generic test: unique, not_null, accepted_values, relationships.
-- create schema.yml file at Models folder.
+- create schema.yml file at Models folder. 
+- for generic test: (model--> schema.yml created)
+- for singular test: (test--> dim_listings_min_nights.yml created)
