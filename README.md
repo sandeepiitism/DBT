@@ -86,3 +86,8 @@ Key Tasks:
 - create schema.yml file at Models folder. 
 - for generic test: (model--> schema.yml created)
 - for singular test: (test--> dim_listings_min_nights.yml created)
+
+## Macros
+- macros are jinja templates.
+- Macros can be used for building own generic test or singular test.
+- Ex: Create own macro by .sql in Macro folder for finding no null and create a .sql in test folder.
