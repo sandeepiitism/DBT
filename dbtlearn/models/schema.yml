@@ -1,6 +1,7 @@
 version: 2
 models:
   - name: dim_listings_cleansed
+    description: cleansed table which contains Airbnb listings.
     columns:
       - name: listing_id
         tests:
@@ -8,6 +9,7 @@ models:
           - not_null
 
       - name: host_id
+        description: cleansed table which contains Airbnb ids.
         tests:
           - not_null
           - relationships:
@@ -15,6 +17,7 @@ models:
               field: host_id
 
           - name: room_type
+            description: cleansed table which contains Airbnb room types.
             tests:
               - accepted_values:
                   values: ['Entire home/apt',
